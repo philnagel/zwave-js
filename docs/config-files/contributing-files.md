@@ -52,5 +52,5 @@ Additional information is available at: [Using templates](config-files/using-tem
 In order to get your configuration file included in this library:
 
 1. Check your new or changed files for potential problems using `yarn run lint:zwave`. Warnings in your file may be tolerated if there is a good reason for them. Errors must be fixed.
-2. Check for formatting problems using `yarn run lint:configjson`. If problems are found, you can auto-fix them with VSCode's command **Format Document** (default: <kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>F</kbd>) or by running `yarn run lint:configjson -w`.
+2. Check for formatting problems using `yarn run lint:configjson`. If problems are found, you can auto-fix them with VSCode's command **Format Document** (default: <kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>F</kbd>) or by running `yarn run lint:configjson:fix`.
 3. Create a PR.
